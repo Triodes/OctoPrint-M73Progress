@@ -14,20 +14,20 @@ plugin_package = "octoprint_m73progress"
 plugin_name = "M73 Progress Plugin"
 
 # The plugin's version. Can be overwritten within OctoPrint's internal data via __plugin_version__ in the plugin module
-plugin_version = "0.2.1"
+plugin_version = "0.3.0"
 
 # The plugin's description. Can be overwritten within OctoPrint's internal data via __plugin_description__ in the plugin
 # module
 plugin_description = """A plugin to update the built-in progress bar on your printer's LCD."""
 
 # The plugin's author. Can be overwritten within OctoPrint's internal data via __plugin_author__ in the plugin module
-plugin_author = "Cesar Vandevelde"
+plugin_author = "Aron List"
 
 # The plugin's author's mail address.
-plugin_author_email = "cesar.vandevelde@gmail.com"
+plugin_author_email = "aronotmar@live.nl"
 
 # The plugin's homepage URL. Can be overwritten within OctoPrint's internal data via __plugin_url__ in the plugin module
-plugin_url = "https://github.com/cesarvandevelde/OctoPrint-M73Progress"
+plugin_url = "https://github.com/Triodes/OctoPrint-M73Progress"
 
 # The plugin's license. Can be overwritten within OctoPrint's internal data via __plugin_license__ in the plugin module
 plugin_license = "AGPLv3"
