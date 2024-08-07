@@ -73,9 +73,9 @@ class M73progressPlugin(
 
         if event == Events.PRINT_STARTED:
             self._progress_monitor.reset()
-            self._set_progress(progress=0)
+            self.on_time_left_changed(progress=0)
         elif event == Events.PRINT_DONE:
-            self._set_progress(progress=100, time_left=0)
+            self.on_time_left_changed(progress=100, time_left=0)
 
     def on_time_left_changed(self, time_left, progress):
         if time_left is None and progress is None: 
