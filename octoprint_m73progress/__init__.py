@@ -11,7 +11,7 @@ from octoprint.printer import PrinterCallback
 logger = logging.getLogger(__name__)
 
 class TimeLeftChangedHander():
-    def on_time_left_changed(self, time_left):
+    def on_time_left_changed(self, time_left = None, progress = None):
         pass
 
 
@@ -77,7 +77,7 @@ class M73progressPlugin(
         elif event == Events.PRINT_DONE:
             self.on_time_left_changed(progress=100, time_left=0)
 
-    def on_time_left_changed(self, time_left, progress):
+    def on_time_left_changed(self, time_left = None, progress = None):
         if time_left is None and progress is None: 
             return
 
